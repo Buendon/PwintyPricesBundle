@@ -1,0 +1,3 @@
+buendon_pwinty_prices_homepage:
+    path:     /pwinty/prices/{countryCode}/{quality}/{shippingBand}
+    defaults: { _controller: BuendonPwintyPricesBundle:Default:index }
